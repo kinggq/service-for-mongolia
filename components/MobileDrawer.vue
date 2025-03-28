@@ -50,7 +50,7 @@
 </template>
 
 <script setup lang="ts">
-const { t, locale } = useI18n()
+const { t, locale, setLocale } = useI18n()
 const localePath = useLocalePath()
 
 const props = defineProps<{
@@ -78,7 +78,7 @@ const navItems = computed(() => ({
 
 const changeLanguage = (event: Event) => {
   const target = event.target as HTMLSelectElement
-  locale.value = target.value as 'zh' | 'mn' | 'en'
+  setLocale(target.value as 'zh' | 'mn' | 'en')
 }
 </script> 
 <style scoped>
