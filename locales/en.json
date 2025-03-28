@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Home",
+    "car": "Business Car Rental",
+    "shopping": "Product Procurement",
+    "tourism": "Tourism Services",
+    "export": "Import & Export",
+    "wholesale": "Wholesale Market",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Mongolia-China Cross-border Service Platform",
+    "subtitle": "One-stop solutions for business car rental, product procurement, tourism services and more"
+  },
+  "seo": {
+    "home": {
+      "title": "Mongolia-China Cross-border Service Platform - One-stop Solutions",
+      "description": "Providing one-stop solutions including business car rental, product procurement, tourism services, import & export, professional team, quality service",
+      "keywords": "Mongolia,China,cross-border services,business car rental,product procurement,tourism services,import export"
+    },
+    "car": {
+      "title": "Business Car Rental Service - Mongolia-China Cross-border Service Platform",
+      "description": "Providing business car rental services in Erlian, Hohhot, Beijing and other cities, including airport pickup and business reception",
+      "keywords": "business car rental,airport pickup,business reception,Erlian,Hohhot,Beijing"
+    },
+    "shopping": {
+      "title": "Product Procurement Service - Mongolia-China Cross-border Service Platform",
+      "description": "Providing procurement services for various products, direct from manufacturers, competitive prices",
+      "keywords": "product procurement,carpets,flooring,building materials,direct from factory"
+    },
+    "tourism": {
+      "title": "Tourism Services - Mongolia-China Cross-border Service Platform",
+      "description": "Providing tourism services in Beijing, Inner Mongolia and other regions, including scenic spots and cultural experiences",
+      "keywords": "tourism services,Beijing tourism,Inner Mongolia tourism,custom tours,cultural experience"
+    },
+    "export": {
+      "title": "Import & Export Services - Mongolia-China Cross-border Service Platform",
+      "description": "Providing import and export services between China and Mongolia, including customs clearance and logistics",
+      "keywords": "import export services,customs clearance,logistics services,China-Mongolia trade"
+    },
+    "wholesale": {
+      "title": "Wholesale Market - Mongolia-China Cross-border Service Platform",
+      "description": "Providing wholesale services for various products, direct from manufacturers, competitive prices",
+      "keywords": "wholesale market,building materials,home goods,clothing shoes,direct from factory"
+    },
+    "about": {
+      "title": "About Us - Mongolia-China Cross-border Service Platform",
+      "description": "We are a comprehensive enterprise focused on China-Mongolia cross-border services, providing one-stop solutions",
+      "keywords": "about us,company introduction,service advantages,professional team"
+    }
+  },
+  "services": {
+    "car": {
+      "title": "Business Car Rental Service",
+      "description": "Providing business car rental services in Erlian, Hohhot, Beijing and other cities",
+      "erlian": {
+        "title": "Erlian",
+        "description": "Providing business car rental services in Erlian city and surrounding areas, including airport pickup and business reception"
+      },
+      "hohhot": {
+        "title": "Hohhot",
+        "description": "Providing business car rental services in Hohhot city and surrounding areas, including airport pickup and business reception"
+      },
+      "beijing": {
+        "title": "Beijing",
+        "description": "Providing business car rental services in Beijing city and surrounding areas, including airport pickup and business reception"
+      }
+    },
+    "shopping": {
+      "title": "Product Procurement Service",
+      "description": "Providing procurement services for various products, direct from manufacturers, competitive prices",
+      "carpet": {
+        "title": "Carpets",
+        "description": "Providing various carpet products, including handmade carpets, machine-made carpets, etc., direct from manufacturers"
+      },
+      "flooring": {
+        "title": "Flooring",
+        "description": "Providing various flooring products, including PVC flooring, rubber flooring, etc., direct from manufacturers"
+      },
+      "other": {
+        "title": "Other Building Materials",
+        "description": "Providing various building materials, including tiles, bathroom fixtures, doors and windows, etc., direct from manufacturers"
+      }
+    },
+    "tourism": {
+      "title": "Tourism Services",
+      "description": "Providing tourism services in Beijing, Inner Mongolia and other regions, including scenic spots and cultural experiences",
+      "beijing": {
+        "title": "Beijing Tourism",
+        "description": "Providing tourism services for major Beijing attractions, including the Forbidden City, Great Wall, Temple of Heaven, etc."
+      },
+      "innerMongolia": {
+        "title": "Inner Mongolia Tourism",
+        "description": "Providing unique tourism experiences in Inner Mongolia, including grasslands, deserts, and cultural experiences"
+      },
+      "custom": {
+        "title": "Custom Tours",
+        "description": "Customizing exclusive tour routes according to client needs, providing full-service accompaniment"
+      }
+    },
+    "export": {
+      "title": "Import & Export Services",
+      "description": "Providing import and export services between China and Mongolia, including customs clearance and logistics",
+      "export": {
+        "title": "Export Services",
+        "description": "Providing export services from China to Mongolia, including customs clearance and logistics"
+      },
+      "import": {
+        "title": "Import Services",
+        "description": "Providing import services from Mongolia to China, including customs clearance and logistics"
+      },
+      "logistics": {
+        "title": "Logistics Services",
+        "description": "Providing logistics transportation services between China and Mongolia, including road and rail transport"
+      }
+    },
+    "wholesale": {
+      "title": "Wholesale Market",
+      "description": "Providing wholesale services for various products, direct from manufacturers, competitive prices",
+      "building": {
+        "title": "Building Materials",
+        "description": "Providing wholesale services for various building materials, including tiles, bathroom fixtures, doors and windows"
+      },
+      "home": {
+        "title": "Home Goods",
+        "description": "Providing wholesale services for various home goods, including furniture, decorations, daily necessities"
+      },
+      "clothing": {
+        "title": "Clothing & Shoes",
+        "description": "Providing wholesale services for various clothing and shoes, including men's, women's, and children's wear"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "If you have any questions or needs, please feel free to contact us",
+    "email": "Send Email",
+    "phone": "Phone",
+    "address": "Address",
+    "social": "Social Media"
+  },
+  "about": {
+    "subtitle": "We are a comprehensive enterprise focused on China-Mongolia cross-border services",
+    "intro": {
+      "title": "Company Introduction",
+      "content": "We are a comprehensive enterprise focused on China-Mongolia cross-border services, providing one-stop solutions including business car rental, product procurement, tourism services, and import & export. We have a professional team and rich experience, committed to providing the best service to our clients."
+    },
+    "advantages": {
+      "title": "Our Advantages",
+      "team": {
+        "title": "Professional Team",
+        "content": "With an experienced professional team, providing the best service to clients"
+      },
+      "service": {
+        "title": "One-stop Service",
+        "content": "Providing full-process service from consultation to completion, making it hassle-free for clients"
+      },
+      "price": {
+        "title": "Price Advantage",
+        "content": "Direct procurement from manufacturers, competitive prices, saving costs for clients"
+      }
+    }
+  }
+} 
