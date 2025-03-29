@@ -3,6 +3,7 @@ const { t } = useI18n()
 </script>
 <template>
   <div class="py-12 bg-white">
+    <img src="/about.jpg" alt="关于我们" class="w-full object-cover rounded-lg rounded-rg">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- 页面标题 -->
       <div class="text-center">
@@ -33,6 +34,7 @@ const { t } = useI18n()
           <!-- 专业团队 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/a1.png" alt="专业团队" class="w-full h-40 object-cover rounded-lg">
               <h4 class="text-lg font-medium text-gray-900">{{ t('about.advantages.team.title') }}</h4>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('about.advantages.team.content') }}
@@ -43,6 +45,7 @@ const { t } = useI18n()
           <!-- 一站式服务 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/a3.png" alt="一站式服务" class="w-full h-40 object-cover rounded-lg">
               <h4 class="text-lg font-medium text-gray-900">{{ t('about.advantages.service.title') }}</h4>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('about.advantages.service.content') }}
@@ -53,6 +56,7 @@ const { t } = useI18n()
           <!-- 价格优势 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/a2.png" alt="价格优势" class="w-full h-40 object-cover rounded-lg">
               <h4 class="text-lg font-medium text-gray-900">{{ t('about.advantages.price.title') }}</h4>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('about.advantages.price.content') }}

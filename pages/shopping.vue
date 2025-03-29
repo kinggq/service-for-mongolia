@@ -20,6 +20,7 @@ const { t } = useI18n()
           <!-- 地毯 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/t1.jpg" alt="地毯" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.shopping.carpet.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.shopping.carpet.description') }}
@@ -30,6 +31,7 @@ const { t } = useI18n()
           <!-- 地板革 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/t2.jpg" alt="地板革" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.shopping.flooring.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.shopping.flooring.description') }}
@@ -40,6 +42,7 @@ const { t } = useI18n()
           <!-- 其他建材 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/t3.jpg" alt="其他建材" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.shopping.other.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.shopping.other.description') }}

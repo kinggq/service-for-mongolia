@@ -20,6 +20,7 @@ const { t } = useI18n()
           <!-- 建材批发 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/j1.jpg" alt="建材批发" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.wholesale.building.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.wholesale.building.description') }}
@@ -30,6 +31,7 @@ const { t } = useI18n()
           <!-- 家居用品 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/j2.png" alt="家居用品" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.wholesale.home.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.wholesale.home.description') }}
@@ -40,6 +42,7 @@ const { t } = useI18n()
           <!-- 服装鞋帽 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/j3.jpeg" alt="服装鞋帽" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.wholesale.clothing.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.wholesale.clothing.description') }}

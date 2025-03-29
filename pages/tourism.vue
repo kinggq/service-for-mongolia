@@ -20,6 +20,7 @@ const { t } = useI18n()
           <!-- 北京旅游 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/l1.png" alt="北京旅游" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.tourism.beijing.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.tourism.beijing.description') }}
@@ -30,6 +31,7 @@ const { t } = useI18n()
           <!-- 内蒙古旅游 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/l2.jpg" alt="内蒙古旅游" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.tourism.innerMongolia.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.tourism.innerMongolia.description') }}
@@ -40,6 +42,7 @@ const { t } = useI18n()
           <!-- 定制旅游 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/l3.jpeg" alt="定制旅游" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.tourism.custom.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.tourism.custom.description') }}

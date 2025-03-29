@@ -20,6 +20,7 @@ const { t } = useI18n()
           <!-- 二连 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/car1.png" alt="二连" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.car.erlian.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.car.erlian.description') }}
@@ -30,6 +31,7 @@ const { t } = useI18n()
           <!-- 呼和浩特 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/car2.png" alt="呼和浩特" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.car.hohhot.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.car.hohhot.description') }}
@@ -40,6 +42,7 @@ const { t } = useI18n()
           <!-- 北京 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/car3.png" alt="北京" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.car.beijing.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.car.beijing.description') }}

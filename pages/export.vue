@@ -20,6 +20,7 @@ const { t } = useI18n()
           <!-- 出口服务 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/w1.png" alt="出口服务" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.export.export.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.export.export.description') }}
@@ -30,6 +31,7 @@ const { t } = useI18n()
           <!-- 进口服务 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/w2.png" alt="进口服务" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.export.import.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.export.import.description') }}
@@ -40,6 +42,7 @@ const { t } = useI18n()
           <!-- 物流服务 -->
           <div class="bg-white overflow-hidden shadow rounded-lg">
             <div class="px-4 py-5 sm:p-6">
+              <img src="/w3.png" alt="物流服务" class="w-full h-40 object-cover rounded-lg">
               <h3 class="text-lg font-medium text-gray-900">{{ t('services.export.logistics.title') }}</h3>
               <p class="mt-2 text-base text-gray-500">
                 {{ t('services.export.logistics.description') }}
