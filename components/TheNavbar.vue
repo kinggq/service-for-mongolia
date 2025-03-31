@@ -19,7 +19,9 @@
         </div>
         <!-- 语言切换 -->
         <div class="flex items-center">
+          {{ locale }}
           <select
+            v-model="selectedLocale"
             class="hidden sm:block ml-4 block w-full pl-3 pr-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-md"
             @change="changeLanguage"
           >
@@ -47,6 +49,7 @@ const { t, locale, setLocale } = useI18n()
 const route = useRoute()
 const localePath = useLocalePath()
 const isOpen = ref(false)
+const selectedLocale = ref(locale.value)
 
 const navItems = computed(() => ({
   '': t('nav.home'),
@@ -60,7 +63,9 @@ const navItems = computed(() => ({
 }))
 
 const changeLanguage = (event: Event) => {
+  
   const target = event.target as HTMLSelectElement
+  selectedLocale.value = target.value as 'zh' | 'mn' | 'en'
   setLocale(target.value as 'zh' | 'mn' | 'en')
 }
 </script>
