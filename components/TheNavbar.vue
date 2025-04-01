@@ -12,7 +12,7 @@
             v-for="(item, key) in navItems"
             :key="key"
             :to="localePath(`/${key}`)"
-            class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 hover:text-blue-600"
+            class="inline-flex font-700 items-center px-1 pt-1 text-sm text-gray-900 hover:text-blue-600"
           >
             {{ item }}
           </NuxtLink>

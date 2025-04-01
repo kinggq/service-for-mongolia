@@ -35,6 +35,7 @@
           <!-- 底部语言选择器 -->
           <div class="border-t border-blue-500 p-4">
             <select
+              v-model="selectedLocale"
               class="w-full rounded-md border-0 bg-blue-700 py-2 pl-3 pr-10 text-white focus:outline-none focus:ring-2 focus:ring-white"
               @change="changeLanguage"
             >
@@ -76,8 +77,11 @@ const navItems = computed(() => ({
   'contact': t('nav.contact')
 }))
 
+const selectedLocale = ref(locale.value)
+
 const changeLanguage = (event: Event) => {
   const target = event.target as HTMLSelectElement
+  selectedLocale.value = target.value as 'zh' | 'mn' | 'en'
   setLocale(target.value as 'zh' | 'mn' | 'en')
 }
 </script> 
